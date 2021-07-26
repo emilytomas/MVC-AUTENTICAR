@@ -11,7 +11,6 @@ namespace MVC_AUTENTICAR.Models
         public UsuariosContext() : base("Usuarios")
         {
         }
-
         public DbSet<Usuario> Usuarios { get; set; }
 }  
 }
